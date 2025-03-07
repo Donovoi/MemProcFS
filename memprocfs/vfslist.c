@@ -16,7 +16,7 @@ typedef struct tdVFSLIST_CONTEXT {
 VFSLIST_CONTEXT g_ctxVfsList = { 0 };
 
 // Increase chunk size to 64 to reduce memory allocation overhead.
-#define VFSLIST_CONFIG_FILELIST_ITEMS   64
+#define VFSLIST_CONFIG_FILELIST_ITEMS   1024
 #define VFSLIST_CONFIG_FILELIST_MAGIC   0x7f646555caffee66
 
 typedef struct tdVFSLIST_DIRECTORY {
